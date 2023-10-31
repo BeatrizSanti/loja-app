@@ -1,15 +1,13 @@
-import Link from "next/link";
+import React from 'react'
 
-
-export default function Cabecalho() {
+export default function Rodape() {
   return (
-   
-    <header className="bg-gray-800 text-white h-16">
-        <nav className="flex flex-row justify-around">
-            <Link className="link-cabecalho" href="/produtos/estaticas/tenis">TÊNIS</Link>
-            <Link className="link-cabecalho" href="/produtos/dinamicas/estranho/tenis-preto">TÊNIS PRETO</Link>
-            <Link className="link-cabecalho" href="/produtos/dinamicas/vestuario/camisa-xadrez">CAMISA-X</Link>
-      </nav>
-    </header>
+    <footer className="rodape">
+        <div>
+            <p>Desenvolvido por: <span>pf0670</span></p>
+            <p>NEXT.js - React.js - GitHub - tailwindcss</p>
+        </div>
+    </footer> 
   )
 }
+ 
